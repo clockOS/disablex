@@ -1,23 +1,19 @@
 <?php
 namespace Wuethrich44\SSO\Listener;
-use Flarum\Event\UserLoggedOut;
-use Flarum\Settings\SettingsRepositoryInterface;
+use Flarum\Event\UserEmailChangeWasRequested;
 use Illuminate\Contracts\Events\Dispatcher;
 class DisableChangeAccount
 {
-    protected $settings;
-    public function __construct(SettingsRepositoryInterface $settings)
+    public function __construct()
     {
-        $this->settings = $settings;
+        
     }
     public function subscribe(Dispatcher $events)
     {
-        $events->listen(UserLoggedOut::class, [$this, 'addLogoutRedirect']);
+        $events->listen(UserEmailChangeWasRequested::class, [$this, 'disablePasswordChange']);
     }
-    public function addLogoutRedirect()
+    public function disablePasswordChange()
     {
-        $url = $this->settings->get('wuethrich44-sso.logout_url');
-        header('Location: ' . $url);
-        die();
+        die('Not allowed');
     }
 }
