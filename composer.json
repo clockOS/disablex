@@ -8,14 +8,10 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Fabian Wüthrich",
-      "email": "fabian.wuethrich@outlook.com"
+      "name": "yellove",
+      "email": "fxxkbat@gmail.com"
     }
   ],
-  "support": {
-    "issues": "https://github.com/wuethrich44/flarum-ext-sso/issues",
-    "source": "https://github.com/wuethrich44/flarum-ext-sso"
-  },
   "require": {
     "flarum/core": "^0.1.0-beta.7"
   },
@@ -26,7 +22,7 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "Single Sign On",
+      "title": "DisableX",
       "icon": {
         "name": "shield"
       }
