@@ -1,5 +1,6 @@
 {
   "name": "newbat/flarum-ext-disablex",
+  "version": "0.1",
   "description": "Single Sign On for :Flarum",
   "type": "flarum-extension",
   "keywords": [
