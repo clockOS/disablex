@@ -1,6 +1,6 @@
 {
-  "name": "wuethrich44/flarum-ext-sso",
-  "description": "Single Sign On for Flarum",
+  "name": "newbat/flarum-ext-disablex",
+  "description": "Single Sign On for :Flarum",
   "type": "flarum-extension",
   "keywords": [
     "authentication"
