@@ -60,8 +60,8 @@ System.register("wuethrich44/sso/main", ["flarum/extend", "flarum/app", "flarum/
                 }
 
                 function removeProfileActions(items) {
-                    items.remove('changeEmail');
-                    items.remove('changePassword');
+                    items.remove('edit');
+                    items.remove('delete');
                 }
 
                 function checkRemoveAccountSection(items) {
