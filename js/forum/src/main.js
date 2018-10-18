@@ -47,8 +47,8 @@ app.initializers.add('wuethrich44-sso', function () {
     }
 
     function removeProfileActions(items) {
-        items.remove('changeEmail');
-        items.remove('changePassword');
+        items.remove('edit');
+        items.remove('delete');
     }
 
     function checkRemoveAccountSection(items) {
