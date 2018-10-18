@@ -1,7 +1,7 @@
 {
   "name": "disablex",
-  "version": "*@dev",
-  "description": "Single Sign On for :Flarum",
+  "version": "0.1",
+  "description": "Disable certain things",
   "type": "flarum-extension",
   "keywords": [
     "authentication"
@@ -20,7 +20,7 @@
     "flarum-extension": {
       "title": "DisableX",
       "icon": {
-        "name": "shield"
+        "name": "cross"
       }
     }
   }
