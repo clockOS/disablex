@@ -1,6 +1,6 @@
 {
-  "name": "newbat/flarum-ext-disablex",
-  "version": "0.1",
+  "name": "disablex",
+  "version": "*@dev",
   "description": "Single Sign On for :Flarum",
   "type": "flarum-extension",
   "keywords": [
@@ -15,11 +15,6 @@
   ],
   "require": {
     "flarum/core": "^0.1.0-beta.7"
-  },
-  "autoload": {
-    "psr-4": {
-      "Wuethrich44\\SSO\\": "src/"
-    }
   },
   "extra": {
     "flarum-extension": {
